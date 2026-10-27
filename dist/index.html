@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#100f0f">
+  <title>Miguel Roberto | Código que conta histórias</title>
+  <meta name="description" content="Portfólio de Miguel Roberto da Silva. Conheça Bingeo, FIGO e MissiON: projetos web e desktop com criatividade, tecnologia e propósito.">
+  <meta property="og:title" content="Miguel Roberto | Código que conta histórias">
+  <meta property="og:description" content="Desenvolvimento, criatividade e propósito. Bingeo, FIGO e MissiON em cartaz no meu portfólio.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="/assets/display.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="/assets/sans.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="/assets/hero.webp" as="image" fetchpriority="high">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header">
+    <a href="#inicio" class="brand" aria-label="Miguel Roberto — início"><span class="brand-mark" aria-hidden="true">M<span>R</span></span><span class="brand-name">MIGUEL ROBERTO<span>PORTFÓLIO · VOL. 01</span></span></a>
+    <nav class="desktop-nav" aria-label="Navegação principal"><a href="#projetos">Em cartaz</a><a href="#sobre">Sobre mim</a><a href="#trajetoria">Trajetória</a><a href="#contato" class="nav-contact">Vamos conversar <span aria-hidden="true">↗</span></a></nav>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Abrir menu"><span></span><span></span></button>
+    <nav id="mobile-nav" class="mobile-nav" aria-label="Navegação no celular" hidden><a href="#projetos">Em cartaz</a><a href="#sobre">Sobre mim</a><a href="#trajetoria">Trajetória</a><a href="#contato">Vamos conversar ↗</a></nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <img class="hero-image" src="/assets/hero.webp" alt="Projetor de cinema iluminando uma sala escura" width="1672" height="941" fetchpriority="high">
+      <div class="hero-shade"></div>
+      <div class="hero-topline container"><span>DESENVOLVIMENTO & CRIATIVIDADE</span><span class="availability"><i></i> ABERTO A ESTÁGIOS</span></div>
+      <div class="hero-copy container">
+        <p class="eyebrow"><span class="red-line"></span> UM PORTFÓLIO DE MIGUEL ROBERTO DA SILVA</p>
+        <h1 id="hero-title">CÓDIGO QUE<br>CONTA <span>HISTÓRIAS.</span></h1>
+        <p class="hero-description">Transformo ideias em experiências digitais.<br>Entre o cinema e a tecnologia, estou construindo<br class="desktop-break"> minha própria trajetória como desenvolvedor.</p>
+        <div class="hero-actions"><a class="button button-red" href="#projetos"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 11 7-11 7z"/></svg> Conheça os projetos</a><a class="text-link" href="#trajetoria">Minha trajetória <span aria-hidden="true">↗</span></a></div>
+      </div>
+      <div class="hero-credits container"><div><span>NO PAPEL PRINCIPAL</span><strong>Miguel Roberto</strong></div><div><span>FORMAÇÃO</span><strong>ADS · IFSP Campinas</strong></div><div><span>LOCALIZAÇÃO</span><strong>Campinas, São Paulo</strong></div><a href="#projetos" class="scroll-cue" aria-label="Rolar até os projetos"><span>ROLE PARA EXPLORAR</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16m-6-6 6 6 6-6"/></svg></a></div>
+    </section>
+
+    <section id="projetos" class="projects section container" aria-labelledby="projects-title">
+      <div class="section-label"><span>01 / SELEÇÃO DE PROJETOS</span><span>IDEIAS QUE SAÍRAM DO ROTEIRO</span></div>
+      <div class="section-heading"><h2 id="projects-title">EM CARTAZ<span class="red">.</span></h2><p>Três universos. A mesma vontade de construir.<br>Conheça os projetos que dão forma ao meu aprendizado.</p></div>
+      <div class="filter-bar"><div class="filters" role="group" aria-label="Filtrar projetos por plataforma"><button class="filter active" data-filter="all" aria-pressed="true">Seleção completa <span>03</span></button><button class="filter" data-filter="web" aria-pressed="false">Web</button><button class="filter" data-filter="desktop" aria-pressed="false">Desktop</button><button class="filter" data-filter="console" aria-pressed="false">Console</button></div><span class="filter-count" aria-live="polite">03 PROJETOS</span></div>
+      <div class="poster-grid">
+        <article class="project-card" data-category="web">
+          <button class="poster-trigger" data-project="bingeo" aria-label="Conhecer o projeto Bingeo">
+            <img src="/assets/bingeo.webp" alt="Esfera de vidro violeta em um ambiente cinematográfico" width="1024" height="1536" loading="lazy">
+            <span class="poster-shade"></span><span class="poster-top"><span>UM PROJETO PESSOAL</span><span>2026</span></span><span class="poster-arrow" aria-hidden="true">↗</span>
+            <span class="poster-copy"><span class="poster-kicker">SÉRIES. CONEXÕES. DESCOBERTAS.</span><strong class="poster-title bingeo-title">Bingeo</strong><span class="poster-subtitle">Sua próxima série começa aqui.</span><span class="poster-credits">DESENVOLVIMENTO WEB · COMUNIDADE · APIs</span></span>
+          </button>
+          <div class="project-caption"><div><p class="project-format">01 / APLICAÇÃO WEB</p><h3>Uma comunidade para quem vive séries.</h3></div><button class="caption-link" data-project="bingeo" aria-label="Abrir ficha técnica do Bingeo">Ver ficha <span aria-hidden="true">↗</span></button></div>
+          <p class="project-stack">JavaScript <span>/</span> Supabase <span>/</span> APIs</p>
+        </article>
+        <article class="project-card" data-category="desktop">
+          <button class="poster-trigger" data-project="figo" aria-label="Conhecer o projeto FIGO">
+            <img src="/assets/figo.webp" alt="Figo iluminado por luz dourada diante de um caminho no horizonte" width="1024" height="1536" loading="lazy">
+            <span class="poster-shade"></span><span class="poster-top"><span>TECNOLOGIA COM PROPÓSITO</span><span>2026</span></span><span class="poster-arrow" aria-hidden="true">↗</span>
+            <span class="poster-copy"><span class="poster-kicker">CADA RECURSO TEM UM DESTINO.</span><strong class="poster-title figo-title">FIGO</strong><span class="poster-subtitle">Planejar para ir mais longe.</span><span class="poster-credits">FINANÇAS · VIAGENS MISSIONÁRIAS · GESTÃO</span></span>
+          </button>
+          <div class="project-caption"><div><p class="project-format">02 / APLICAÇÃO DESKTOP</p><h3>Organização financeira com propósito.</h3></div><button class="caption-link" data-project="figo" aria-label="Abrir ficha técnica do FIGO">Ver ficha <span aria-hidden="true">↗</span></button></div>
+          <p class="project-stack">C# / .NET <span>/</span> Windows Forms <span>/</span> MySQL</p>
+        </article>
+        <article class="project-card" data-category="console">
+          <button class="poster-trigger" data-project="mission" aria-label="Conhecer o projeto MissiON">
+            <img src="/assets/mission.webp" alt="Veículo em uma estrada de montanha em direção ao amanhecer" width="1024" height="1536" loading="lazy">
+            <span class="poster-shade"></span><span class="poster-top"><span>UM PROJETO DE EXTENSÃO</span><span>2026</span></span><span class="poster-arrow" aria-hidden="true">↗</span>
+            <span class="poster-copy"><span class="poster-kicker">O CAMINHO COMEÇA NO PLANEJAMENTO.</span><strong class="poster-title mission-title">Missi<span>ON</span></strong><span class="poster-subtitle">Conectando pessoas a uma missão.</span><span class="poster-credits">PLANEJAMENTO · TRANSPORTE · CHECKLISTS</span></span>
+          </button>
+          <div class="project-caption"><div><p class="project-format">03 / SISTEMA EM CONSOLE</p><h3>Menos imprevistos. Mais caminhos.</h3></div><button class="caption-link" data-project="mission" aria-label="Abrir ficha técnica do MissiON">Ver ficha <span aria-hidden="true">↗</span></button></div>
+          <p class="project-stack">Linguagem C <span>/</span> Arquivos <span>/</span> Relatórios TXT</p>
+        </article>
+      </div>
+      <button class="bonus-project" data-project="brenmig"><span class="bonus-mark" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M8 3h12l5 5v21H8zM19 3v7h6M12 16h9m-9 5h9"/></svg></span><span class="bonus-copy"><span class="eyebrow">TAMBÉM NOS CRÉDITOS · 2025</span><strong>Sistema de Ordens de Serviço <span>— Brenmig</span></strong><span>Uma necessidade real de trabalho transformada em aplicação web.</span></span><span class="bonus-arrow" aria-hidden="true">↗</span></button>
+    </section>
+
+    <section class="about-wrap" id="sobre" aria-labelledby="about-title"><div class="container section about">
+      <div class="section-label"><span>02 / POR TRÁS DAS CENAS</span><span>PESSOAS ANTES DE TECNOLOGIAS</span></div>
+      <div class="about-grid"><div class="about-visual" aria-hidden="true"><div class="frame-corner corner-tl"></div><div class="frame-corner corner-tr"></div><span class="frame-rec"><i></i> REC</span><span class="about-monogram">MR<span>.</span></span><span class="frame-coordinate">CAMPINAS · SP<br>23° S / 47° W</span><span class="frame-take">CENA 02<br>EM CONSTRUÇÃO</span><div class="frame-corner corner-bl"></div><div class="frame-corner corner-br"></div></div>
+        <div class="about-copy"><p class="eyebrow red">PRAZER, MIGUEL ROBERTO.</p><h2 id="about-title">CURIOSIDADE<br>É MEU PONTO<br>DE PARTIDA.</h2><p>Sou estudante de <strong>Análise e Desenvolvimento de Sistemas no IFSP Campinas</strong>. Gosto de entender problemas, experimentar soluções e transformar ideias em projetos que as pessoas possam usar.</p><p>Minha trajetória começou com manutenção de equipamentos e atendimento. Hoje, conecto essa experiência ao desenvolvimento de aplicações web e desktop, bancos de dados e ferramentas de IA generativa.</p><p>O cinema me inspira a pensar em histórias. A programação me dá ferramentas para construir as minhas.</p><a class="text-link" href="https://github.com/migplay777" target="_blank" rel="noopener noreferrer">Conheça meu GitHub <span aria-hidden="true">↗</span></a></div>
+      </div>
+      <div class="profile-notes"><div><span>MEU FOCO</span><p>Desenvolvimento de software<br>e inteligência artificial generativa</p></div><div><span>O QUE BUSCO</span><p>Uma oportunidade de estágio<br>para aprender e contribuir</p></div><div><span>COMO APRENDO</span><p>Projetos, experimentação<br>e resolução de problemas reais</p></div></div>
+    </div></section>
+
+    <section id="trajetoria" class="section container experience" aria-labelledby="experience-title">
+      <div class="section-label"><span>03 / TRAJETÓRIA</span><span>CADA EXPERIÊNCIA, UM NOVO CAPÍTULO</span></div>
+      <div class="section-heading"><h2 id="experience-title">DO PRIMEIRO<br>ATO ATÉ AQUI<span class="red">.</span></h2><p>Atendimento, tecnologia e formação.<br>Experiências diferentes que se encontram no código.</p></div>
+      <div class="timeline"><article class="timeline-entry"><div class="timeline-date">ABR 2026 — ATUAL<span class="current-label">EM CENA</span></div><div class="timeline-content"><p class="eyebrow">EXPERIÊNCIA PROFISSIONAL</p><h3>Hospital Care</h3><p class="timeline-role">Jovem Aprendiz · Atendimento</p><p>Atendimento a colaboradores e fornecedores por chats e chamados. Triagem e acompanhamento de demandas de RH, financeiro e TI, utilizando sistemas corporativos e colaborando com as equipes responsáveis.</p><div class="inline-tags"><span>Atendimento</span><span>Qualitor</span><span>LG</span><span>Sistemas corporativos</span></div></div><span class="timeline-number" aria-hidden="true">01</span></article>
+      <article class="timeline-entry"><div class="timeline-date">FEV — SET 2025</div><div class="timeline-content"><p class="eyebrow">EXPERIÊNCIA PROFISSIONAL</p><h3>Brenmig Automação Comercial</h3><p class="timeline-role">Auxiliar Técnico</p><p>Diagnóstico, manutenção e configuração de computadores e equipamentos de automação comercial. Desenvolvimento de um sistema de ordens de serviço em PHP e de um site institucional com HTML, CSS e JavaScript.</p><div class="inline-tags"><span>Hardware</span><span>PHP</span><span>Desenvolvimento web</span><span>Suporte técnico</span></div></div><span class="timeline-number" aria-hidden="true">02</span></article></div>
+      <div class="education-grid"><div class="education-main"><p class="eyebrow red">FORMAÇÃO ACADÊMICA</p><h3>Aprendizado que<br>continua em movimento.</h3></div><div class="education-list"><article><span>MAR 2026 — DEZ 2028 <small>(PREVISÃO)</small></span><h4>Análise e Desenvolvimento de Sistemas</h4><p>Instituto Federal de São Paulo · Campus Campinas</p></article><article><span>CONCLUÍDO EM DEZ 2025</span><h4>Ensino Médio</h4><p>Rede Decisão · Vila Industrial, Campinas</p></article><div class="recognition"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9z"/></svg><p><strong>Aluno Destaque · Simulado ENEM</strong><br>Rede Decisão · Junho e outubro de 2025</p></div></div></div>
+    </section>
+
+    <section class="skills-wrap" aria-labelledby="skills-title"><div class="section container"><div class="section-label"><span>04 / REPERTÓRIO TÉCNICO</span><span>FERRAMENTAS PARA TIRAR IDEIAS DO PAPEL</span></div><div class="section-heading"><h2 id="skills-title">NOS BASTIDORES<span class="red">.</span></h2><p>As tecnologias que uso e continuo explorando<br>ao longo da minha formação.</p></div><div class="skill-rows"><div class="skill-row"><span class="skill-index">01</span><h3>Desenvolvimento</h3><p>C <span>·</span> C# / .NET <span>·</span> PHP <span>·</span> JavaScript <span>·</span> HTML & CSS <span>·</span> Python <small>(básico)</small></p></div><div class="skill-row"><span class="skill-index">02</span><h3>Dados & ferramentas</h3><p>MySQL <span>·</span> Git & GitHub <span>·</span> Windows Forms <span>·</span> Integração de APIs</p></div><div class="skill-row"><span class="skill-index">03</span><h3>IA generativa</h3><p>ChatGPT <span>·</span> Claude Code <span>·</span> Gemini <span>·</span> Cursor <span>·</span> Engenharia de prompts</p></div><div class="skill-row"><span class="skill-index">04</span><h3>Além do código</h3><p>Levantamento de requisitos <span>·</span> Documentação <span>·</span> Suporte técnico <span>·</span> Atendimento</p></div><div class="skill-row"><span class="skill-index">05</span><h3>Rotina corporativa</h3><p>SAP <span>·</span> Qualitor <span>·</span> LG <span>·</span> Pacote Office <small>(intermediário)</small></p></div></div><div class="languages"><span>IDIOMAS</span><p>Português <strong>Nativo</strong></p><p>Inglês <strong>Intermediário</strong></p><p>Espanhol <strong>Básico</strong></p></div></div></section>
+
+    <section id="contato" class="contact section container" aria-labelledby="contact-title"><div class="contact-ticket"><div class="ticket-main"><p class="eyebrow">05 / A PRÓXIMA HISTÓRIA</p><h2 id="contact-title">VAMOS CRIAR<br>O PRÓXIMO<br>CAPÍTULO<span>?</span></h2><p>Busco uma oportunidade de estágio em desenvolvimento<br class="desktop-break"> e IA generativa. Vamos conversar sobre o que podemos construir?</p><a class="contact-email" href="mailto:miguel.brenmig@gmail.com">miguel.brenmig@gmail.com <span aria-hidden="true">↗</span></a><div class="contact-actions"><a class="button button-dark" href="mailto:miguel.brenmig@gmail.com">Enviar um e-mail <span aria-hidden="true">↗</span></a><button class="copy-button" id="copy-email">Copiar e-mail <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 8h12v12H8zM4 15V4h11"/></svg></button></div></div><div class="ticket-stub"><span class="ticket-admit">ADMIT ONE</span><span class="ticket-initials">MR.</span><span class="ticket-type">CRIATIVIDADE<br>TECNOLOGIA<br>PROPÓSITO</span><div class="barcode" aria-hidden="true"></div><span class="ticket-city">CAMPINAS / BRASIL</span></div></div></section>
+  </main>
+
+  <footer class="site-footer container"><a class="footer-brand" href="#inicio">MIGUEL ROBERTO<span>.</span></a><p>Uma trajetória em desenvolvimento.</p><div><a href="https://github.com/migplay777" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="#inicio">Voltar ao início ↑</a></div><span class="copyright">© 2026</span></footer>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <dialog id="project-dialog" class="project-dialog" aria-labelledby="dialog-title"><button class="dialog-close" aria-label="Fechar ficha do projeto"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button><div class="dialog-layout"><div class="dialog-art"><img id="dialog-image" src="/assets/bingeo.webp" alt="" width="1024" height="1536"><span id="dialog-art-title" class="dialog-art-title"></span></div><div class="dialog-content"><p id="dialog-category" class="eyebrow red"></p><h2 id="dialog-title"></h2><p id="dialog-subtitle" class="dialog-subtitle"></p><div id="dialog-tech" class="dialog-tech"></div><div class="case-section"><h3>O desafio</h3><p id="dialog-challenge"></p></div><div class="case-section"><h3>Minha participação</h3><p id="dialog-role"></p></div><div class="case-section"><h3>O projeto na prática</h3><ul id="dialog-features"></ul></div><p id="dialog-note" class="dialog-note"></p><div id="dialog-links" class="dialog-links"></div></div></div></dialog>
+</body>
+</html>

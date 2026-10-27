@@ -1,0 +1,7 @@
+{
+  "name": "miguel-roberto-portfolio",
+  "branch": "main",
+  "buildCommand": "true",
+  "publishPath": "dist",
+  "autoDeploy": "yes"
+}
